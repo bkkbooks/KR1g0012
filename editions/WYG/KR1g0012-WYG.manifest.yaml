@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR1g0012/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1g0012/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 明本排字九經直音
+  date: '2015-08-24 22:18:51.281769'
+  source:
+    repository: kanripo
+    path: KR1g0012
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1g0012_000-WYG.yaml, hash: 'sha256:72c45314a747bf78320d6110fefd891f384a84134ad74ef2734af03af14a6311'}
+  - {seq: 1, filename: KR1g0012_001-WYG.yaml, hash: 'sha256:cf95eae67caeb587a982671754d3d889de4dcc9da9062e0da4c295bdd9624cbd'}
+  - {seq: 2, filename: KR1g0012_002-WYG.yaml, hash: 'sha256:6e0e81e3fd5a33f87a327fd8adec4e9e3bf0d26c64fd4c5270ec87a7c85cb440'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1g0012_000-WYG.markers.yaml, hash: 'sha256:613b2d238f4d6442a7c262b95faefffd943c31bfd779ecea06a4b2043a72fddf'}
+  - {seq: 1, role: markers, filename: assets/KR1g0012_001-WYG.markers.yaml, hash: 'sha256:8a04db80981eaa41ffad1c57d00844e9763a32f89670590a92e6d73e1f072a68'}
+  - {seq: 2, role: markers, filename: assets/KR1g0012_002-WYG.markers.yaml, hash: 'sha256:30407d9b1f4a6a2cf8d99bc78fc83180f1e9860e03e0b9455d0d6d87d8b2765f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1g0012_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 1098
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1g0012_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 24675
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1g0012_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 35161
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:6739ae34af7609bc4ea6ace50f23f5ab42d15724fef25303e5098e317d9b3715
